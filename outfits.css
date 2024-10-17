@@ -1,0 +1,1421 @@
+.menu {
+    background-color:rgb(232, 67, 147);
+    border-bottom: 1px solid #ddd;
+    overflow:hidden;
+    position: sticky;
+    
+   
+    width: 100%;
+    
+    top: 0;
+    z-index: 8;
+    
+
+    
+    
+   
+    
+    
+    
+}
+
+.col-md-5 li{
+    display: inline-block;
+padding-left: 15px;
+color: white;
+padding-top: 6px;
+font-size: 14px;
+
+}
+
+.col-md-7 li{
+    display: inline-block;
+padding-left: 15px;
+color: white;
+padding-top: 6px;
+font-size: 14px;
+}
+.menu-second{
+    background-color:rgb(232, 67, 147); 
+    
+
+    
+   
+    
+}
+.col-md-4{
+    margin-top: 70px;
+    color: white;
+}
+.dip ul{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.dip li{
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 25px;
+
+}
+
+.dip:hover{
+    color:pink;
+    cursor: pointer;
+}
+
+
+
+.shuvo{
+    text-align: right;
+}
+
+.shuvo li{
+    display: inline-block;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+.shuvo ul li:hover{
+    transform: scale(1.4);
+    
+}
+.form-inline {
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+.fas.fa-search {
+    margin-left: -20px;
+}
+.fas.fa-search:hover{
+   
+    transform: scale(1.2);
+}
+
+
+.form-control {
+
+    
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color:#C71585;
+    background-clip: padding-box;
+    border: none;
+    border-radius:none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.menu-third{
+    background-color: #FF1493;
+    overflow: hidden;
+    position:sticky;
+    
+
+    
+    top: 6.5%;
+    width: 100%;
+    
+    z-index: 6;
+
+    
+
+  
+    
+   
+    
+    
+}
+
+.fas.fa-shopping-bag {
+    font-size: 35px;
+}
+
+.col-md-12 ul{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.col-md-12  ul li{
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.col-md-12 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.banner{
+    background: url(photo/Bjorn-Iooss-1024x668.jpg) no-repeat;
+    padding: 200px 0;
+    background-size: cover;
+}
+
+.banner-caption h3{
+    text-align: right;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.banner-caption h1{
+    text-align: right;
+    font-size: 80px;
+    color:white;
+    
+}
+.banner-caption p{
+    text-align: right;
+    color:white;
+}
+
+.button {
+    text-align: right;
+    background-color: #FF1493;
+
+
+display: inline-block;
+padding: 10px 30px;
+margin-left: 900px;
+border-radius: 20px;
+transition: 0.5s;
+margin-top: 2px;
+
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.outfits{
+    background:url(photo/Untitled\ design.png) no-repeat;
+    padding: 230px 0;
+    background-size: cover;
+    
+    
+}
+.cat p{
+    font-size: 40px;
+    margin-left: 134px;
+}
+.dag3{
+    width: 90px;
+    height:2px;
+    background-color: #FF1493 ;
+    margin-left: 575px;
+    margin-top: 10px;
+}
+.maindiv{
+    width:250px;
+    height:250px;
+    
+    margin:30px auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+    
+
+.hoverdiv{
+    width:250px;
+    height: 250px;
+    position: relative;
+    transition: 0.5s;
+}
+.hoverdiv:hover{
+    transform: scale(1.1);
+}
+
+.innerdiv{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.hoverdiv:hover .innerdiv{
+   width: 100%;
+   height: 12%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.innerdiv ul {
+    text-align: center;
+    margin-right: 20px;
+}
+.innerdiv li {
+    display: inline-block;
+    color: white;
+}
+.horse ul{
+    
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.horse li{
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Oleo Script', cursive;
+    color: grey;
+}
+
+.horse li:hover{
+    color:#FF1493 ;
+}
+
+.karim p{
+    margin-left: 72px;
+    margin-top: -20px;
+}
+
+.karim p:hover{
+    color: #FF1493;
+}
+
+.div1 {
+    width: 137px;
+    height: 47px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.div2 {
+    width: 124px;
+height: 35px;
+border: 1px solid black;
+margin-top: 5.5px;
+margin-left: 5.8;
+margin-bottom: 2px;
+margin-left: 6px;
+}
+
+.div2:hover{
+    border: 1px solid  	#FF1493;
+}
+.div1:hover{
+    border: 1px solid  	#FF1493
+}
+
+.div2 p {
+    text-align: center;
+    
+    margin-top: 5px;
+}
+
+.div2 p:hover{
+    color: 	#FF1493;
+}
+
+.value h4{
+    margin-left: 86px;
+    margin-top: -10px;
+    color: green;
+}
+
+.tiger ul{
+    margin-top: -25px;
+    margin-left: 23px;
+}
+.tiger ul li{
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Oleo Script', cursive;
+    color: grey;
+    
+}
+.tiger ul li:hover{
+    color:#FF1493 ;
+}
+
+.rahim p{
+    margin-left: 79px;
+    margin-top: -20px;
+}
+.rahim p:hover{
+    color: #FF1493;;
+}
+.kajol p{
+    margin-left: 60px;
+    margin-top:-20px ;
+}
+.kajol p:hover{
+    color:#FF1493 ;
+
+}
+
+.jolly p{
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.jolly p:hover{
+    color: #FF1493;
+}
+
+.girl ul{
+    margin-top: -25px;
+    margin-left: 31px;
+
+}
+.girl li{
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Oleo Script', cursive;
+    color: grey;
+}
+.girl li:hover{
+    color:#FF1493 ;
+}
+
+.fagol h1{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+.gh p{
+    color:grey;
+}
+.button-2{
+    background-color:#FF1493  ;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 4px;
+    transition: 0.5s;
+}
+
+.button-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .carousel-indicators li:hover{
+      background-color: #FF1493 ;
+  }
+.button-2:hover{
+    transform: scale(1.2);
+}
+
+#mycarousel {
+    margin-top: 77px;
+}
+.mouse {
+    margin-top: 230px;
+}
+.gang {
+    margin-top: 240px;
+}
+.giant {
+    margin-top: 180px;
+}
+
+.banner-2{
+    background: url(photo/vegan-plant-based-news-vegan-fashion-week-livekindly.jpg) no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-top: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.banner-2-caption p{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    
+}
+.banner-2-caption h1{
+    color: white;
+    font-size: 60px;
+}
+.banner-2-caption h3{
+    color: white;
+}
+
+.button-3{
+    background-color:#FF1493  ;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 15px;
+    
+}
+.button-3:hover{
+    transform: scale(1.2);
+}
+.button-3 a{
+    color: white;
+    text-decoration: none;
+}
+.banner-3{
+    background: url(photo/Shop\ NOw.png) no-repeat;
+    padding: 120px 0;
+    background-size: cover;
+}
+.dag2{
+    width: 90px;
+    height:2px;
+    background-color: #FF1493 ;
+    margin-left: 473px;
+    margin-top: 10px; 
+}
+
+.banner-3-caption p {
+    margin-top: 35px;
+    
+    margin-left: 380px;
+    font-size: 40px;
+}
+
+.hover-3 {
+    margin-top: 40px;
+}
+
+.banner-4{
+    background: url(photo/pexels-evg-culture-1126993.jpg) no-repeat;
+    padding:220px;
+    margin-top: 140px;
+    height: 820px;
+    position: relative;
+    overflow:hidden;
+    margin-left: -110px;
+}
+
+.overlay-2{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+
+}
+.banner-4-caption{
+    color:white;
+    margin-top: 500px;
+    margin-left: 30px;
+}
+.banner-4-caption h3{
+    color: #fffb00;
+}
+
+.button-4{
+    background-color:#fffb00;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right: 4px;
+    transition: 0.5s;
+    
+}
+.button-4:hover{
+    transform: scale(1.2);
+}
+.button-4 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.banner-5{
+    background: url(photo/pexels-lumn-322207.jpg) no-repeat;
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+    margin-left: 25px;
+    margin-top: 140px;
+    position: relative;
+    overflow:hidden;
+}
+
+.overlay-3{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.banner-5-caption{
+    color: white;
+    margin-top: 230px;
+    text-align: center;
+}
+
+.banner-5-caption p{
+    color: #16dff5;
+    font-size: 20px;
+}
+
+.banner-6{
+
+    background: url(photo/pexels-andrea-piacquadio-994234.jpg) no-repeat;
+    width: 400px;
+    height: 400px;
+
+    
+    padding: 100px;
+    margin-left: 355px;
+    margin-top: -400px;
+    position: relative;
+    overflow:hidden;
+}
+.banner-6-caption{
+    color: white;
+    text-align: center;
+    margin-top: 230px;
+}
+.banner-6-caption p{
+    color: #1af516;
+    font-size: 20px;
+}
+.overlay-4{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+.banner-7{
+    background: url(photo/pexels-konstantin-mishchenko-1926769.jpg) no-repeat;
+    padding:140px;
+    margin-left:880px;
+    margin-top: -820px;
+    height: 820px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-7-caption{
+    
+    color:white;
+    margin-top: 500px;
+    margin-left: 250px;
+    
+}
+.jamla img{
+    width: 80px;
+    height: 80px;
+}
+.banner-7-caption h2{
+    font-size: 35px;
+    margin-left: -33px;
+}
+.banner-7-caption h3{
+     color:#1682f5 ;
+    margin-left: 40px;
+
+    
+}
+.button-5{
+    
+    background-color:#1682f5  ;
+    
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    transition: 0.5s;
+    
+    
+    
+}
+.button-5:hover{
+    transform: scale(1.2);
+}
+.button-5 a{
+    
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.overlay-5{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.baneer-8 {
+    background: url(photo/pexels-laura-stanley-2005992.jpg) no-repeat;
+        background-size: auto;
+    padding: 100px 0;
+    background-size: cover;
+    margin-top: 160px;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.overlay-6{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+.banner-8-caption.text-center {
+    margin-top: 70px;
+}
+.banner-8-caption p{
+    color: white;
+    font-family:'Pacifico', cursive ;
+    font-size: 20px;
+}
+.banner-8-caption img{
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.jack{
+    margin-left: 175px;
+margin-top: -70px
+}
+
+.jack h5{
+    margin-right: 7px;
+    font-size: 20px;
+    color: #00FFFF;
+}
+
+.jack p{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    margin-left: 24px;
+}
+
+.banner-9{
+    background: url(photo/checkout.png) no-repeat;
+    padding: 120px 0;
+    background-size: cover;
+}
+
+.banner-9-caption p{
+    margin-top: 80px;
+    
+    margin-left: 450px;
+    font-size: 40px;
+}
+.dag1{
+    width: 90px;
+    height:2px;
+    background-color: #FF1493 ;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.preetom{
+    width:359px;
+    height:239px;
+    
+    margin:30px auto;
+    margin-top: -0.4px;
+}
+
+.smith img{
+    max-width: 100%;
+    width: 359px;
+    height: 239px;
+}
+
+.car h2{
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid white;
+    display: inline-block;
+    width:160px;
+    height:25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    color: white;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+
+.car h2:hover{
+    background-color: white;
+    color: black;
+}
+
+.smith{
+    width:359px;
+    height: 239px;
+    position: relative;
+}
+
+.car{
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    
+    color:white;
+    width: 0;
+    height: 0;
+
+    width:100%;
+    height: 100%;
+
+    
+    
+    
+    background-color: rgba(0,0,0,0.3);
+    transition: 0.5s ease ;
+    text-align: center;
+    
+    
+    opacity: 0;
+    
+    
+    
+}
+.smith:hover .car{
+  
+    
+    opacity: 1;
+    
+
+}    
+
+.card{
+    width:359px;
+    height:440px;
+    margin: 60px auto;
+}
+
+.card-footer {
+    height: 300px;
+}
+
+.kali img{
+    width:80px;
+    height:80px;
+
+}
+.kali{
+    position: relative;
+    top:-70px;
+}
+
+.lali{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 10px;
+    color: black;
+}
+.lali:hover{
+    color: 	#FF1493;
+}
+
+.jali p{
+    font-size: 13px;
+    color: grey;
+}
+
+.maji ul{
+    margin-left: -19px;
+}
+.maji ul li{
+    display: inline-block;
+    color: grey;
+    
+}
+.na:hover{
+    color: black;
+}
+.kaji ul{
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.kaji ul li{
+    display: inline-block;
+    color: grey;
+    
+}
+.oy:hover{
+    color: black;
+}
+
+.card-footer{
+    height: 50px;
+    
+}
+
+.service{
+    background-color: #f2f2f2;
+    margin-top: 60px;
+}
+
+.fas.fa-gift {
+    color: #FF1493;
+    font-size: 60px;
+}
+
+.fas.fa-lock {
+    color: #FF1493;
+    font-size: 60px;
+}
+.rock .fas.fa-map-marker-alt {
+    color: #FF1493;
+    font-size: 60px;
+}
+.rock h4{
+    color:black;
+    white-space: nowrap;
+    margin-top: 15px;
+}
+.rock p{
+    color:grey;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.ray h4{
+    color:black;
+    margin-top: 15px;
+}
+.ray p{
+    color:grey;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.gada h4{
+    color:black;
+    margin-top: 15px;
+}
+.gada p{
+    color:grey;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.about ul{
+    margin-top: 30px;
+    margin-left: -14px;
+}
+.about ul li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.about .gali{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493;
+    position: relative;
+    right: 22px;
+}
+
+.about .kamli{
+    position: relative;
+    bottom: 3px;
+    right: 12px;
+    color: white;
+}
+
+.location {
+    
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+
+}
+
+.lorem{
+    color: grey;
+}
+
+.location .fas.fa-map-marker-alt {
+    
+    
+    position: relative;
+    top: 6px;
+    color:#FF1493;
+}
+
+.phone{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.fas.fa-phone {
+    position: relative;
+    top: 6px;
+    color: #FF1493;
+}
+
+.email{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px;  
+}
+
+.fas.fa-envelope {
+    position: relative;
+    top: 6px;
+    color: #FF1493;
+}
+
+.ADDRESS {
+    margin-left: 20px;
+    margin-top: -165px;
+}
+
+
+.ADDRESS ul li{
+    list-style-type: none;
+    color: grey;
+}
+
+.number {
+    margin-left: 20px;
+    margin-top:-3px;
+}
+.number ul li{
+    list-style-type: none;
+    color: grey;
+}
+
+.mail {
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.mail ul li{
+    list-style-type: none;
+    color: white;
+}
+
+.nav .mali{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493;
+}
+
+.nav ul{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.nav ul li{
+    display: inline-block;
+}
+
+.nav .op{
+    margin-left: 15px;
+    color: white;
+}
+
+.footer-first-menu ul{
+    margin-left:60px
+}
+.footer-first-menu ul li{
+    padding: 5px;
+    color: white;
+    
+}
+.footer-first-menu ul li:hover{
+    color:#FF1493 ;
+    transform: translate(10px );
+    transition: 0.5s;
+}
+
+.com .fm-1{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493;
+}
+
+.com ul{
+    margin-left:40px;
+}
+.com ul li{
+    display: inline-block;
+}
+.com .op-1{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer-second-menu ul li{
+    padding: 5px;
+    margin-left: 60px;
+    color:white ;
+    
+}
+
+.footer-second-menu ul li:hover{
+    color:#FF1493 ;
+    transform: translate(10px );
+    transition: 0.5s;
+}
+
+.fm-2 .dipok{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493;
+    margin-left: -74px;
+    position: relative;
+    top: 25px;
+}
+
+.catagory .op-2{
+    margin-left: -50px;
+    color: white;
+}
+
+.catagory ul{
+    margin-left: 100px;
+}
+.catagory ul li{
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+.products ul{
+    margin-left: 40px;
+}
+.products ul li{
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    
+    
+}
+.products ul li:hover{
+    color:#FF1493 ;
+    transition: 0.5s;
+
+    
+}
+
+
+ 
+.far.fa-square {
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.a {
+    margin-left: 160px;
+    font-size: 15px;
+    margin-top: -24px;
+}
+.ll {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+    
+    
+}
+
+
+
+
+.b {
+    margin-left: 160px;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.kk{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+.c{
+    margin-left: 160px;
+    margin-top: -26px;
+    font-size: 15px;
+}
+.mm{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+
+.d{
+    margin-left: 160px;
+    margin-top: -26px;
+    font-size: 15px; 
+}
+.jj{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+
+.e{
+    margin-left: 160px;
+    margin-top: -26px;
+    font-size: 15px; 
+}
+
+.nn{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+.f{
+    margin-left: 160px;
+    margin-top: -25px;
+    font-size: 15px; 
+}
+
+.bb{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -25px;
+}
+.g{
+    margin-left: 160px;
+    margin-top: -25px;
+    font-size: 15px; 
+}
+
+.fm-3 .join{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493 ;
+    
+    position: relative;
+    top: 25px;
+    left: 36px;
+}
+.newsletter .op-3{
+    position: relative;
+    top: 22px;
+    left: 50px;
+    color: white;
+}
+.newsletter ul li{
+    display: inline-block;
+}
+
+.loki{
+    position: relative;
+    top: 23px;
+    left: 76px;
+    color: gray;
+}
+.input{
+    background-color: none;
+}
+.form-control {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: none;
+    background-clip: padding-box;
+    border: none;
+    border-radius: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control-1 {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+
+    background-color: #242323;
+        
+    
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: -14px;
+    margin-left: 70px;
+}
+
+.jamal{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    position: relative;
+    top:32px;
+    left: 265px;
+    background-color: #FF1493 ;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.jamal:hover{
+    background-color: pink;
+}
+.jamal p{
+    margin-top: 4px;
+    color: white;
+}
+
+.fm-4 .us{
+    width: 4px;
+    height: 15px;
+    background-color: #FF1493 ;
+    
+    position: relative;
+    top: 25px;
+    left: 36px;
+}
+.follow ul li{
+    display: inline-block;
+}
+
+.follow .op-4{
+    position: relative;
+    left: 53px;
+    top: 22px;
+    color: white;
+}
+.icon-1 ul {
+    margin-top: 39px;
+    margin-left: 17px;
+}
+.icon-1 ul li{
+    display: inline-block;
+    padding-left:27px;
+    font-size: 18px;
+    color: white;
+
+    
+}
+.fab.fa-twitter:hover {
+    color:#0ee8e5;
+}
+.fab.fa-facebook:hover {
+    
+    color: #0e28e8;
+}
+.fab.fa-instagram:hover {
+    
+    color: #e80e46;
+}
+.fab.fa-google-plus-g:hover {
+    color: #eca80c;
+}
+.icon-2 ul{
+    margin-left: 44px;
+}
+.icon-2 ul li{
+    display: inline-block;
+    padding-right:23px;
+    padding-left: 2.9px;
+    font-size: 16px;
+    color: white;
+}
+.fab.fa-pinterest-p:hover {
+    color: #e3551c;
+}
+.fab.fa-youtube:hover {
+    color: red;
+}
+.fab.fa-invision:hover {
+    color: #1ce3ce;
+}
+.fab.fa-yandex-international:hover {
+    
+    color: #e31ca4;
+}
+.footer-first {
+    
+    background-color: #242323;
+}
+.footer{
+    background-color: #030303;
+   height:70px;
+}
+.footer p{
+    text-align: center;
+    color: #ddd;
+    position: relative;
+    top: 20px;
+}
+
+.footer p:hover{
+    color: #e31ca4;
+}
+
+
+
+
+
+
+
+
+
+ 
+      
+
+
+
+
+
+
+    
+
